@@ -5,7 +5,7 @@ let startGame = null;
 let [width, height] = [600, 600];
 
 let main = function() {
-  const canvas = document.getElementById('game-canvas');
+  const canvas = document.getElementById('animation-canvas');
   canvas.width = width;
   canvas.height = height;
   let fps = 120;
