@@ -8,13 +8,26 @@
   <body>
     <h1>Animation</h1>
     <p>Hit the start button to start the animation</p>
+    <p>Check out the <a href="SpecRunner.html" target="_blank">Unit Tests</a> for this project. There are tests for most of the math and utility functions in this project!</p>
+    <p>Please check out the <a href="https://github.com/aabmass/VanillaCanvasAnimation" target="_blank">code on github</a>!</p>
 
     <div>
-      <canvas id="animation-canvas"></canvas>
+      <span>
+        <canvas class="animation-canvas" id="a1" width="350" height="350"></canvas>
+        <canvas class="animation-canvas" id="a2" width="350" height="350"></canvas>
+      </span>
+      <span>
+        <canvas class="animation-canvas" id="a3" width="350" height="350"></canvas>
+        <canvas class="animation-canvas" id="a4" width="350" height="350"></canvas>
+      </span>
+      <span>
+        <canvas class="animation-canvas" id="a5" width="350" height="350"></canvas>
+        <canvas class="animation-canvas" id="a6" width="350" height="350"></canvas>
+      </span>
     </div>
 
-    <button type="button" onclick="startGame()" name="stopGame">Start</button>
-    <button type="button" onclick="stopGame()" name="stopGame">Stop</button>
+    <button type="button" onclick="startAnimation()" name="stopGame">Start</button>
+    <button type="button" onclick="stopAnimation()" name="stopGame">Stop</button>
   </body>
 
   <script src="src/utils.js" charset="utf-8"></script>
