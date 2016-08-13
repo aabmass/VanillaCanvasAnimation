@@ -7,9 +7,9 @@
 
  const defaultConfig = {
    // number of rectangles to render
-   numRects: 50,
+   numRects: 100,
    minRectLength: 10,
-   maxRectLength: 40,
+   maxRectLength: 25,
    colors: [
      "#5E412F",
      "#FCEBB6",
