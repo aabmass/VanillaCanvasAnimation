@@ -1,0 +1,21 @@
+{
+  "name": "VanillaCanvasAnimation",
+  "homepage": "https://github.com/aabmass/VanillaCanvasAnimation",
+  "authors": [
+    "Aaron Abbott <aabmass@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jasmine-core": "^2.4.1"
+  }
+}
